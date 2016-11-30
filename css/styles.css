@@ -11,6 +11,10 @@ header {
   margin: 0 auto;
 }
 
+body {
+    background: url("/stand-alone-portfolio/img/bg.jpg");
+}
+
 h1 {
     background: rgba(0,0,0,.5);
     text-align: center;

@@ -1,0 +1,124 @@
+/********************
+YOUR STYLES
+*******************/
+
+
+/* Header */
+header {
+  display: flex;
+  justify-content: center;
+  padding: 2em;
+}
+
+h1 {
+    background: rgba(0,0,0,.5);
+    text-align: center;
+    font-size: 2em;
+    color: white;
+    padding: 2.3em;
+    margin: auto;
+    margin-bottom: 1em;
+}
+
+h2 {
+    background: rgba(0,0,0,.5);
+    text-align: center;
+    font-size: 2em;
+    color: white;
+    padding: 2.2em;
+    margin: auto;
+    margin-bottom: 1em;
+}
+
+h3 {
+    background: rgba(0,0,0,.5);
+    text-align: center;
+    font-size: 2em;
+    color: white;
+    padding: 2.1em;
+    width: 6em;
+    margin: auto;
+    margin-bottom: 1em;
+}
+
+h4 {
+    background: rgba(0,0,0,.5);
+    text-align: center;
+    font-size: 2em;
+    color: white;
+    padding: 2.2em;
+    margin: auto;
+    margin-bottom: 1em;
+}
+
+h5 {
+   background: rgba(0,0,0,.5);
+    text-align: center;
+    font-size: 2em;
+    color: white;
+    padding: 2.3em;
+    margin: auto;
+    margin-bottom: 1em;
+}
+footer {
+    text-align: center;
+    font-size: 2em;
+}
+/* Gallery Styling */
+.gallery {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+figure {
+  background: rgba(0,0,0,.5);
+  color: white;
+  font-size: 24px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding: 1em;
+  width: 20em;
+}
+
+.lg-backdrop {
+    background: rgba(255,255,255,.8) ;
+}
+
+.lg-image {
+    box-shadow: 0 0 30px #333;
+}
+
+/********************
+MEDIA QUERIES
+*******************/
+/* Mobile: 320px = 20em */
+@media screen and (min-width: 20em) { 
+
+  /* Diagnostic Styling. */
+  body {
+       background: url("/img/bg.jpg");
+  }
+  
+}
+
+/* Tablet:  768px = 160em */
+@media screen and (min-width: 48em)  {
+
+  /* Diagnostic Styling. */
+  body {
+       background: url("/img/bg.jpg");
+  }
+
+}
+
+/* Desktop: 1280px = 80em */
+@media screen and (min-width: 80em) { 
+  
+  /* Diagnostic Styling. */
+  body {
+       background: url("/img/bg.jpg");
+  }
+
+}

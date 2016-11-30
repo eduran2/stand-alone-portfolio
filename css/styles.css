@@ -8,6 +8,7 @@ header {
   display: flex;
   justify-content: center;
   padding: 2em;
+    margin: 0 auto;
 }
 
 h1 {
@@ -18,6 +19,18 @@ h1 {
     padding: 2.3em;
     margin: auto;
     margin-bottom: 1em;
+}
+
+.thumbnails {
+    object-fit: contain;
+    width: 150px;
+    height: 100px;
+}
+
+.ad {
+    object-fit: cover;
+    width: 150px;
+    height: 100px;
 }
 
 h2 {
@@ -60,10 +73,12 @@ h5 {
     margin: auto;
     margin-bottom: 1em;
 }
+
 footer {
     text-align: center;
     font-size: 2em;
 }
+
 /* Gallery Styling */
 .gallery {
   display: flex;

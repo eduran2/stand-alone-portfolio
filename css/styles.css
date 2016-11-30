@@ -98,11 +98,37 @@ figure {
 }
 
 .lg-backdrop {
-    background: rgba(255,255,255,.8) ;
+    background: rgba(255,255,255,.5) ;
 }
 
 .lg-image {
     box-shadow: 0 0 30px #333;
+}
+
+
+/*keyframes*/
+
+  @keyframes cf3FadeInOut{
+  0% {
+  opacity:1;
+}
+45% {
+opacity:1;
+}
+55% {
+opacity:0;
+}
+100% {
+opacity:0;
+}
+}
+
+#cf3 img.top {
+animation-name: cf3FadeInOut;
+animation-timing-function: ease-in-out;
+animation-iteration-count: infinite;
+animation-duration: 10s;
+animation-direction: alternate;
 }
 
 /********************

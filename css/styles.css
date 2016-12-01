@@ -175,9 +175,11 @@ MEDIA QUERIES
 @media screen and (min-width: 20em) { 
 
   /* Diagnostic Styling. */
+/*
   body {
        background: url("/stand-alone-portfolio/img/bg.jpg");
   }
+*/
     figure{
         justify-content: center;
     }
@@ -188,9 +190,11 @@ MEDIA QUERIES
 @media screen and (min-width: 48em)  {
 
   /* Diagnostic Styling. */
+/*
   body {
        background: url("/stand-alone-portfolio/img/bg.jpg");
   }
+*/
 
 }
 
@@ -198,8 +202,10 @@ MEDIA QUERIES
 @media screen and (min-width: 80em) { 
   
   /* Diagnostic Styling. */
+/*
   body {
        background: url("/stand-alone-portfolio/img/bg.jpg");
   }
+*/
 
 }

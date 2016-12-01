@@ -12,7 +12,7 @@ header {
 }
 
 body {
-    background: url("/stand-alone-portfolio/img/bg.jpg");
+    background: url("../img/bg.jpg");
 }
 
 h1 {
@@ -25,17 +25,6 @@ h1 {
     margin-bottom: 1em;
 }
 
-.thumbnails {
-    object-fit: contain;
-    width: 150px;
-    height: 100px;
-}
-
-.ad {
-    object-fit: cover;
-    width: 150px;
-    height: 100px;
-}
 
 h2 {
     background: rgba(0,0,0,.5);
@@ -98,11 +87,11 @@ figure {
   flex-wrap: wrap;
   justify-content: space-between;
   padding: 1em;
-  width: 20em;
+  width: 30em;
 }
 
 .lg-backdrop {
-    background: rgba(128,128,128,.8);
+    background: rgba(128,128,128,.95);
 }
 
 .lg-image {
@@ -118,7 +107,7 @@ MEDIA QUERIES
 
   /* Diagnostic Styling. */
   body {
-       background: url("/stand-alone-portfolio/img/bg.jpg");
+       background: url("/img/bg.jpg");
   }
   
 }
@@ -128,7 +117,7 @@ MEDIA QUERIES
 
   /* Diagnostic Styling. */
   body {
-       background: url("/stand-alone-portfolio/img/bg.jpg");
+       background: url("/img/bg.jpg");
   }
 
 }
@@ -138,7 +127,7 @@ MEDIA QUERIES
   
   /* Diagnostic Styling. */
   body {
-       background: url("/stand-alone-portfolio/img/bg.jpg");
+       background: url("/img/bg.jpg");
   }
 
 }

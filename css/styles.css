@@ -102,6 +102,14 @@ h5 {
     margin-bottom: 1em;
 }
 
+
+h6 {
+    font-family: "Arial Black", Gadget, sans-serif;
+    text-align: center;
+    font-size: 2em;
+    color: white;
+}
+
 footer {
     text-align: center;
     font-size: 1.5em;
